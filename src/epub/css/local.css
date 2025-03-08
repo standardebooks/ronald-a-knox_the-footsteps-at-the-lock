@@ -32,3 +32,47 @@ figure.full-page{
 	}
 }
 /* end figure */
+
+/* Begin Letters - c25 only */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+header > [epub|type~="z3998:salutation"]{
+	text-align: initial;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+/* end letters */
+
+/* Begin Bespoke styling */
+#chapter-3 blockquote header{
+	padding-bottom: 1em;
+}
+
+#chapter-3 blockquote header p:first-child{
+	padding-bottom: .5em;
+	text-transform: uppercase;
+}
+
+#chapter-3 blockquote header [epub|type~="z3998:place"]{
+	font-style: italic;
+	text-align: right;
+}
+
+#chapter-3 blockquote > p:nth-child(2n+3):nth-child(-n+9){
+	font-variant: small-caps;
+	margin-bottom: .5em;
+	margin-top: 1em;
+	text-align: center;
+	text-indent: initial;
+}
+/* end bespoke */
