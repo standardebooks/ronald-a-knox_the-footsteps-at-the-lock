@@ -67,6 +67,11 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<dc:contributor id="illustrator">A. E. Taylor</dc:contributor>
+		<meta property="file-as" refines="#illustrator">Taylor, A. E.</meta>
+		<meta property="se:name.person.full-name" refines="#illustrator">Alfred Edward Taylor</meta>
+		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/no2019128770</meta>
+		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="transcriber-1">Iona Vaughan</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Vaughan, Iona</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
