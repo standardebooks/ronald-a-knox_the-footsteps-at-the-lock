@@ -115,4 +115,8 @@ footer{
 	text-align: center;
 	text-indent: initial;
 }
+
+#chapter-16 span{
+	word-break: break-all;
+}
 /* end bespoke */
