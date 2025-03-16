@@ -116,7 +116,7 @@ footer{
 	text-indent: initial;
 }
 
-#chapter-16 span{
+#chapter-16 .cipher{
 	word-break: break-all;
 }
 /* end bespoke */
