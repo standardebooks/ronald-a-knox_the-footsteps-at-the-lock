@@ -30,7 +30,7 @@ section[epub|type~="dedication"] > *{
 }
 /* End centered dedications */
 
-/* Additional decication styling */
+/* Additional dedication styling */
 #dedication p{
 	font-variant: small-caps;
 	line-height: 2;
