@@ -94,26 +94,21 @@ footer{
 /* end letters */
 
 /* Begin Bespoke styling */
-#chapter-3 blockquote header{
-	padding-bottom: 1em;
-}
-
-#chapter-3 blockquote header p:first-child{
+#chapter-3 blockquote > header > p{
 	padding-bottom: .5em;
 	text-transform: uppercase;
 }
 
-#chapter-3 blockquote header [epub|type~="z3998:place"]{
+#chapter-3 header [epub|type~="z3998:place"]{
 	font-style: italic;
+	font-variant: normal;
 	text-align: right;
 }
 
-#chapter-3 blockquote > p:nth-child(2n+3):nth-child(-n+9){
+#chapter-3 div header p{
 	font-variant: small-caps;
 	margin-bottom: .5em;
 	margin-top: 1em;
-	text-align: center;
-	text-indent: initial;
 }
 
 #chapter-16 .cipher{
