@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/ronald-a-knox/the-footsteps-at-the-lock</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-03-19T19:48:16Z</dc:date>
+		<meta property="dcterms:modified">2025-03-19T19:48:16Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -44,22 +44,18 @@
 		<meta property="group-position" refines="#collection-1">2</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Mystery</meta>
-		<dc:description id="description">When first one, then the other, of an unsavory pair of cousins goes missing from their canoe holiday on the Thames, detectives are called in to solve the mystery.</dc:description>
+		<dc:description id="description">When an unsavory pair of cousins goes missing from their canoe holiday on the Thames, detectives are called in to solve the mystery.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Derek Burtell is a boorish young man with a devotion to drink and drugs, and deeply in debt. His younger cousin, Nigel Burtell, is a pompous aesthete finishing his studies in Oxford. They share a childhood without parents, and a mutual antipathy. Derek is due to inherit a family fortune from his grandfather’s estate when he turns twenty-five, but if he should die before attaining that age, Nigel becomes the beneficiary. Complicating matters is the further possibility of a legacy from their great-aunt, if they can demonstrate that their hostilities have ceased.&lt;/p&gt;
-			&lt;p&gt;These are the factors leading to their decision to share a summer canoe holiday on the Thames, in spite of their animosity. As they are on the return leg of their excursion, Nigel needs return to Oxford to complete his examinations, leaving Derek at Shipcote Lock. In Nigel’s absence, Derek disappears—as it happens, just before his twenty-fifth birthday. Given his self-destructive life-style, his creditors had insured his life. So &lt;a href="https://standardebooks.org/collections/miles-bredon"&gt;Miles Bredon&lt;/a&gt;, private detective of the Indescribable Insurance Company, is called in to investigate.&lt;/p&gt;
-			&lt;p&gt;Bredon is once again accompanied by his clever wife, Angela, and joined as well by the official police investigator, his war-time friend, Detective Leyland. &lt;i&gt;The Footsteps at the Lock&lt;/i&gt; contains all the hallmarks of &lt;a href="https://standardebooks.org/ebooks/ronald-a-knox"&gt;Ronald Knox’s&lt;/a&gt; detective fiction: polished prose, compelling characterization, and a pleasingly puzzling plot.&lt;/p&gt;
+			&lt;p&gt;These are the factors leading to their decision to share a summer canoe holiday on the Thames, in spite of their animosity. As they are on the return leg of their excursion, Nigel needs to return to Oxford to complete his examinations, leaving Derek at Shipcote Lock. In Nigel’s absence, Derek disappears—as it happens, just before his twenty-fifth birthday. Given his self-destructive life-style, his creditors had insured his life. So &lt;a href="https://standardebooks.org/collections/miles-bredon"&gt;Miles Bredon&lt;/a&gt;, private detective of the Indescribable Insurance Company, is called in to investigate.&lt;/p&gt;
+			&lt;p&gt;Bredon is once again accompanied by his clever wife, Angela, and joined as well by the official police investigator, his wartime friend Detective Leyland. &lt;i&gt;The Footsteps at the Lock&lt;/i&gt; contains all the hallmarks of &lt;a href="https://standardebooks.org/ebooks/ronald-a-knox"&gt;Ronald Knox’s&lt;/a&gt; detective fiction: polished prose, compelling characterization, and a pleasingly puzzling plot.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20090501</dc:source>
 		<dc:source>https://archive.org/details/footstepsatlock0000rona</dc:source>
-		<meta property="se:production-notes">
-			The map included in this edition was originally published as endpapers to the 1928 first printed edition.
-			It can also be found in the 1929 Methuen printing:
-			https://books.google.com/books?id=e9eq9FpwIJgC
-		</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">The map included in this edition was originally published as endpapers to the 1928 first printed edition. It can also be found in the [1929 Methuen printing](https://books.google.com/books?id=e9eq9FpwIJgC).</meta>
+		<meta property="se:word-count">67227</meta>
+		<meta property="se:reading-ease.flesch">71.14</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Footsteps_at_the_Lock</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ronald-a-knox_the-footsteps-at-the-lock</meta>
 		<dc:creator id="author">Ronald A. Knox</dc:creator>
@@ -103,6 +99,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
