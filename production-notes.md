@@ -1,0 +1,1 @@
+The map included in this edition was originally published as endpapers to the 1928 first printed edition. It can also be found in the [1929 Methuen printing](https://books.google.com/books?id=e9eq9FpwIJgC).

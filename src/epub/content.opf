@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/ronald-a-knox/the-footsteps-at-the-lock</dc:identifier>
 		<dc:date>2025-03-19T19:48:16Z</dc:date>
 		<meta property="dcterms:modified">2025-03-19T19:48:16Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -42,8 +43,8 @@
 		<meta id="collection-1" property="belongs-to-collection">Miles Bredon</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<meta property="se:subject">Fiction</meta>
-		<meta property="se:subject">Mystery</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:genre">Mystery</meta>
 		<dc:description id="description">When an unsavory pair of cousins goes missing from their canoe holiday on the Thames, detectives are called in to solve the mystery.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Derek Burtell is a boorish young man with a devotion to drink and drugs, and deeply in debt. His younger cousin, Nigel Burtell, is a pompous aesthete finishing his studies in Oxford. They share a childhood without parents, and a mutual antipathy. Derek is due to inherit a family fortune from his grandfather’s estate when he turns twenty-five, but if he should die before attaining that age, Nigel becomes the beneficiary. Complicating matters is the further possibility of a legacy from their great-aunt, if they can demonstrate that their hostilities have ceased.&lt;/p&gt;
@@ -53,27 +54,28 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20090501</dc:source>
 		<dc:source>https://archive.org/details/footstepsatlock0000rona</dc:source>
-		<meta property="se:production-notes">The map included in this edition was originally published as endpapers to the 1928 first printed edition. It can also be found in the [1929 Methuen printing](https://books.google.com/books?id=e9eq9FpwIJgC).</meta>
-		<meta property="se:word-count">65386</meta>
-		<meta property="se:reading-ease.flesch">71.14</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Footsteps_at_the_Lock</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/ronald-a-knox_the-footsteps-at-the-lock</meta>
+		<meta property="schema:wordCount">65386</meta>
+		<meta property="schema:educationalLevel">71.14</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Footsteps_at_the_Lock" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/ronald-a-knox_the-footsteps-at-the-lock" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Ronald A. Knox</dc:creator>
 		<meta property="file-as" refines="#author">Knox, Ronald A.</meta>
-		<meta property="se:name.person.full-name" refines="#author">Ronald Arbuthnott Knox</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ronald_A._Knox</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50043983</meta>
+		<meta property="schema:alternateName" refines="#author">Ronald Arbuthnott Knox</meta>
+		<link href="https://en.wikipedia.org/wiki/Ronald_A._Knox" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50043983.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">William Mulready</dc:contributor>
 		<meta property="file-as" refines="#artist">Mulready, William</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Mulready</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79106102</meta>
+		<link href="https://en.wikipedia.org/wiki/William_Mulready" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79106102.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="illustrator">A. E. Taylor</dc:contributor>
 		<meta property="file-as" refines="#illustrator">Taylor, A. E.</meta>
-		<meta property="se:name.person.full-name" refines="#illustrator">Alfred Edward Taylor</meta>
-		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/no2019128770</meta>
+		<meta property="schema:alternateName" refines="#illustrator">Alfred Edward Taylor</meta>
+		<link href="https://id.loc.gov/authorities/names/no2019128770.html" refines="#illustrator" rel="schema:sameAs"/>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="transcriber-1">Iona Vaughan</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Vaughan, Iona</meta>
@@ -86,12 +88,12 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">Distributed Proofreaders Canada</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders Canada</meta>
-		<meta property="se:url.homepage" refines="#transcriber-4">https://www.pgdpcanada.net/</meta>
+		<link href="https://www.pgdpcanada.net/" refines="#transcriber-4" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Reimer</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Reimer, David</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://github.com/dajare</meta>
-		<meta property="se:url.authority.nacoaf" refines="#producer-1">http://id.loc.gov/authorities/names/n92075987</meta>
+		<link href="https://github.com/dajare" refines="#producer-1" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/n92075987.html" refines="#producer-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -101,7 +103,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia/</meta>
+		<link href="https://weijiarhymeswith.asia/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
