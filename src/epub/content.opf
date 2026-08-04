@@ -45,7 +45,7 @@
 		<meta property="group-position" refines="#collection-1">2</meta>
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:genre">Mystery</meta>
-		<dc:abstract>When an unsavory pair of cousins goes missing from their canoe holiday on the Thames, detectives are called in to solve the mystery.</dc:abstract>
+		<meta property="schema:abstract">When an unsavory pair of cousins goes missing from their canoe holiday on the Thames, detectives are called in to solve the mystery.</meta>
 		<dc:description>
 			&lt;p&gt;Derek Burtell is a boorish young man with a devotion to drink and drugs, and deeply in debt. His younger cousin, Nigel Burtell, is a pompous aesthete finishing his studies in Oxford. They share a childhood without parents, and a mutual antipathy. Derek is due to inherit a family fortune from his grandfather’s estate when he turns twenty-five, but if he should die before attaining that age, Nigel becomes the beneficiary. Complicating matters is the further possibility of a legacy from their great-aunt, if they can demonstrate that their hostilities have ceased.&lt;/p&gt;
 			&lt;p&gt;These are the factors leading to their decision to share a summer canoe holiday on the Thames, in spite of their animosity. As they are on the return leg of their excursion, Nigel needs to return to Oxford to complete his examinations, leaving Derek at Shipcote Lock. In Nigel’s absence, Derek disappears—as it happens, just before his twenty-fifth birthday. Given his self-destructive life-style, his creditors had insured his life. So &lt;a href="https://standardebooks.org/collections/miles-bredon"&gt;Miles Bredon&lt;/a&gt;, private detective of the Indescribable Insurance Company, is called in to investigate.&lt;/p&gt;
