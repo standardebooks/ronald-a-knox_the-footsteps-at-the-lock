@@ -63,7 +63,7 @@
 		<dc:creator id="author">Ronald A. Knox</dc:creator>
 		<meta property="file-as" refines="#author">Knox, Ronald A.</meta>
 		<meta property="schema:alternateName" refines="#author">Ronald Arbuthnott Knox</meta>
-		<link href="https://en.wikipedia.org/wiki/Ronald_A._Knox" refines="#author" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Ronald_Knox" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50043983.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
